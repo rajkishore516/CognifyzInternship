@@ -1,0 +1,27 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    height: 7rem;
+    text-align: center;
+    color: #ffffff;
+    line-height: 7rem;
+    font-size: 2rem;
+    background:linear-gradient(45deg,white, green, red ,blue,orange ,white);
+}
+.content{
+    height: 600px;
+    width: 550px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+}
+.content img{
+    width: inherit;
+}
+.content p{
+    font-size: 1.5rem;
+    text-align: start;
+
+}
