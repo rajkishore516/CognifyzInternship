@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+header{
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: rgb(224, 227, 228);
+}
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top:0;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.links a{
+    text-decoration: none;
+    padding:10px;
+    margin:0 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 50px;
+    transition: border,color, 0.5s;
+    background-color: blue;
+    color: white;
+
+}
+.links a:hover{
+    box-shadow: 0 0 5px black;
+}
+.container{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.intro{
+    width: 80%;
+    margin-left: 110px;
+}
+.intro-image{
+    width:30%;
+    height: 100%;
+}
+.intro-image img{
+    height: inherit;
+    width: inherit;
+}
+.intro h3{
+    font-size: 3rem;
+    padding-bottom: 3px;
+    font-weight: bolder;
+}
+.intro p{
+    font-size: 1rem;
+    padding:20px 0;
+}
+.intro button{
+    border:none;
+    background-color: blue;
+    padding:15px;
+    font-size: 1rem;
+    color: white;
+    border-radius:10px ;
+    cursor: pointer;
+}
+.intro button:hover{
+    box-shadow: 0 0 5px black;
+}
+.container2 h1{
+    text-align: center;
+    padding:25px 0; 
+    background-color:  rgb(224, 227, 228);
+}
+.benifit{
+    height: 300px;
+    width: 400px;
+}
+.container2{
+    height: 900px;
+    margin:0 110px;
+
+}
+.benifit img{
+    height: inherit;
+    width: inherit;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    text-align: center;
+}
+.benifit p{
+    padding:10px;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.container3{
+    height: 950px;
+    margin: 0 110px;
+    text-align: center;
+}
+.container3 h1{
+    padding: 25px 0;
+    background-color:  rgb(224, 227, 228);;
+}
+.container3 button{
+    border:none;
+    background-color: blue;
+    padding:15px;
+    font-size: 1rem;
+    color: white;
+    border-radius:10px ;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.container4{
+    height: 500px;
+    background-color: rgb(2, 2, 56);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.foot{
+    height: 300px;
+    width: 300px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: start;
+}
+
+.foot p a{
+    text-decoration: none;
+    color: rgb(225, 217, 217);
+}
+
+footer{
+    background-color: black;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+}
