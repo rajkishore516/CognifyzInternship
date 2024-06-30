@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grettings using java script</title>
+    <style>
+        header{
+            height: 5rem;
+            text-align: center;
+            background-color: bisque;
+            font-size: 1.5rem;
+            line-height: 5rem;
+        }
+        div{
+            height: 5rem;
+            text-align: center;
+            padding: 20px;
+        }
+        button{
+            padding: 15px;
+            font-size: 1.5rem;
+            border: none;
+            border-radius:10px ;
+            background-color: blue;
+            color: beige;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>Gretting using java Script</header>
+    <div>
+        <button onclick="getGreeting()">Grett me</button>
+    </div>
+    <script>
+        function getGreeting(){
+            var present=new Date();
+            var hours=present.getHours();
+            var greeting;
+            if(hours<12){
+                greeting="Good Morning";
+            }else if(hours<18){
+                greeting="Good Afternoon";
+            }else{
+                greeting="Good Evening";
+            }
+            alert(greeting);
+        }
+        getGreeting();
+    </script>
+
+</body>
+</html>
